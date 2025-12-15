@@ -1,0 +1,8 @@
+.carroselcontainer {
+   margin: 20px 0;
+}
+.carrosselimage {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+}

@@ -1,0 +1,32 @@
+.historiacontainer {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 60px 20px;
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+.titlehistoria {
+  display: inline-block;
+  color: #322017;
+  font-size: 30px;
+  font-family: "Verdana", sans-serif;
+  border-bottom: 3px solid #50230C;
+  padding-bottom: 10px
+}
+
+
+.historiacontainer p {
+  color: #555;
+  font-size: 16px;
+  line-height: 1.7;
+  margin-bottom: 20px;
+}
+
+.valores {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  margin-top: 30px;
+  color: #ffb5c4;
+  font-size: 16px;
+}

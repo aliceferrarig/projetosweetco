@@ -1,18 +1,38 @@
-import "/src/CSS/pagecontato.css"
-function Pagecontato() {
+import "/src/CSS/pagecontato.css";
+
+function Contato() {
   return (
-    <section id="contato" className="sectioncardcontainer">
-      <h2 className="sectiontitlecenter">Envie uma mensagem</h2>
-      <form className="contactform">
-        <input type="text" placeholder="Nome" className="contactinput" />
-        <input type="email" placeholder="Email" className="contactinput" />
-        <textarea placeholder="Mensagem" className="contact-text-area" />
-        <button type="submit" className="contactbutton">
-          Enviar
+    // section principal da página de contato
+    <section id="contato" className="contatocontainer">
+
+      {/* titulo da seção */}
+      <h2 className="contatotitulo">Fale Conosco</h2>
+
+      {/* formulario de contato */}
+      <form className="contatoform">
+
+        {/* campo para nome */}
+        <input
+          type="text"
+          placeholder="Seu Nome"
+          className="contatoinput"
+        />
+
+        {/* campo para email */}
+        <input
+          type="email"
+          placeholder="Seu E-mail"
+          className="contatoinput"
+        />
+
+        {/* botao de envio */}
+        <button type="submit" className="contatobotao">
+          Enviar Mensagem
         </button>
+
       </form>
     </section>
   );
 }
 
-export default Pagecontato;
+export default Contato;

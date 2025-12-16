@@ -1,0 +1,24 @@
+.ondeestamoscontainer {
+    padding: 40px 20px;
+    background-color: #fff0f6;
+    width: 70%;
+    margin: 0 auto 60px auto;
+     text-align: center;
+     border-radius: 8px;
+     box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+}
+.titleondeestamos {
+    display: inline-block;
+  color: #322017;
+  font-size: 30px;
+  font-family: "Verdana", sans-serif;
+  border-bottom: 3px solid #50230C;
+  padding-bottom: 10px;
+}
+.retirada {
+    font-size: 18px;
+    color: #5A3A2E;
+    margin-top: 30px;
+    margin-bottom: 15px;
+    text-align: center;
+}

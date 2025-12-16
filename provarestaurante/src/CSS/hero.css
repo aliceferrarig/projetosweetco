@@ -17,7 +17,7 @@
   color: #745348;
 }
 
-.buttoncardapio {
+.buttonver {
   background-color: #5A3A2E;
   color: white;
   border: none;
@@ -28,7 +28,7 @@
     margin-top: 10px;
     box-shadow: #42261E 2px 4px 6px;
 }
-.buttoncardapio:hover {
+.buttonver:hover {
   background-color: #42261E;
   transition: 0.5s;
 }
